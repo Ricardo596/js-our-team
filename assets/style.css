@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 .title {
+    font-family: "Fredoka", serif;
     padding: 4rem;
     text-align: center;
     align-items: center;
@@ -7,8 +10,10 @@
 .align{
     padding: ;
     text-align: center;
+    font-family: "Fredoka", serif;
 }
 
 .stile{
         text-align: center;
+        font-family: "Fredoka", serif;
 }
