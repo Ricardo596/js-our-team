@@ -41,3 +41,29 @@ const teamMembers = [
   }
 ];
 
+
+// arrElement = arr[i]
+const container = document.getElementById ("container")
+for (let i= 0; i< teamMembers.length; i++) {
+  const thisTeamMembers = teamMembers[i]
+  console.log(thisTeamMembers)
+  const {name, role, email, img} = thisTeamMembers
+  console.log(name, role, email, img)
+  const col = ` <div class="col-6">
+        <div class="p-3 d-flex">
+          <img src="${img}" alt="">
+          <div>
+         
+            <p>
+              ${name}
+            </p>
+            <p>${role}</p>
+            <p>${email}</p>
+          </div>
+        </div>
+      </div>`
+      container.innerHTML += col
+}
+
+
+  
